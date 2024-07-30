@@ -1,0 +1,27 @@
+[
+    {
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:sunbirdrc2.github.io:VCTest:a9bf74ae-ccfa-471b-b81c-5d206e210d1c",
+        "alsoKnownAs": [
+            "test@gmail.com"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:sunbirdrc2.github.io:VCTest:a9bf74ae-ccfa-471b-b81c-5d206e210d1c#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:sunbirdrc2.github.io:VCTest:a9bf74ae-ccfa-471b-b81c-5d206e210d1c",
+                "publicKeyMultibase": "z6MkhjKYPFPwigETA8LXWEg8GWroGQkUnFnvQR3vAHuou6Z7"
+            }
+        ],
+        "authentication": [
+            "did:web:sunbirdrc2.github.io:VCTest:a9bf74ae-ccfa-471b-b81c-5d206e210d1c#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:sunbirdrc2.github.io:VCTest:a9bf74ae-ccfa-471b-b81c-5d206e210d1c#key-0"
+        ]
+    }
+]
